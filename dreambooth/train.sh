@@ -23,7 +23,7 @@ accelerate launch train_dreambooth_lora_sdxl.py \
   --train_batch_size=2 \
   --gradient_accumulation_steps=2 \
   --gradient_checkpointing \
-  --learning_rate=1e-6 \
+  --learning_rate=1e-4 \
   --lr_scheduler="constant" \
   --lr_warmup_steps=0 \
   --enable_xformers_memory_efficient_attention \
