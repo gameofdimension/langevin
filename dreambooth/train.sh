@@ -4,7 +4,8 @@
 # https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/SDXL_DreamBooth_LoRA_.ipynb
 
 # requirements
-# !pip install xformers bitsandbytes transformers accelerate diffusers wandb -q
+# !pip install xformers bitsandbytes transformers accelerate wandb torchvision scipy -q
+# !pip install git+https://github.com/huggingface/diffusers.git -q
 
 # prepare
 # accelerate config default
